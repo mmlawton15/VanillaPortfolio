@@ -1,6 +1,4 @@
 
-
-
 /* FAVORITE COLORS */
 :root {
     --primary-color: #f3f3f4;
@@ -9,4 +7,19 @@
     --accent-color: #de2b64;
     --text-color: #181925;
     --purple: #6622cc; 
+ }
+
+ body {
+     background-color: #dabfff;
+ }
+
+ .header {
+     color: #f3f3f4;
+     background-color: #1282a2;
+ }
+
+ .header h1 {
+     font-size: 30px;
+     color: #f3f3f4;
+     background-color: #1282a2;
  }
