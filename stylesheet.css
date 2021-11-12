@@ -37,4 +37,26 @@
     font-size: 24px;
  }
 
- 
+ .work {
+     color: #181925;
+     background-color:#f3f3f4;
+     font-size:16px;
+ }
+
+ .work h2 {
+     color: #de2b64;
+     background-color:#f3f3f4;
+     font-size: 24px;
+ }
+
+ .chat {
+     color: #6622cc;
+     background-color:#f3f3f4;
+     font-size: 16px;
+ }
+
+ .chat h2{
+     color: #de2b64;
+     background-color:#f3f3f4;
+     font-size: 24px;
+ }
