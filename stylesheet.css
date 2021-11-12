@@ -44,24 +44,24 @@ a {
 }
 
 p {
-    font-size:19px;
-    color: var(--purple);
+    font-size:18px;
+    color: var(--text-color);
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
     color: var(--accent-color);
+}
+
+h3 {
+    font-size: 23px;
+    color: var(--purple);
 }
 
  .me {
      background-color:var(--primary-color);
  }
 
-
- .me h2{
-    background-color: var(--primary-color);
-
- }
 
  .work {
      background-color:var(--primary-color);
@@ -80,6 +80,6 @@ h2 {
  }
 
  .chat li {
-     color: var(--purple);
+     color: var(--text-color);
      font-size: 19px;
  }
