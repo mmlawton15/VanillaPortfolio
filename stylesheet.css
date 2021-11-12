@@ -17,6 +17,9 @@
      color: var(--primary-color);
      background-color: var(--teritary-color);
      display: flex;
+     justify-content: space-between;
+     top:0;
+     flex-wrap: wrap;
  }
 
  .header h1 {
@@ -24,11 +27,15 @@
      font-size: 60px;
      color: var(--primary-color);
      background-color: var(--teritary-color);
+     padding-left: 20px;
  }
 
  .header div {
-     font-size:24px;
+     font-size:28px;
      color: var(--primary-color);
+     padding-top:35px;
+     margin-right: 25px;
+
  }
 
  .header div ul {
@@ -37,10 +44,12 @@
 
  .header div ul li {
      display: inline-block;
+     margin-left: 30px;
  }
 
 a {
     color: var(--primary-color);
+    text-decoration: none;
 }
 
 p {
