@@ -10,53 +10,54 @@
  }
 
  body {
-     background-color: #dabfff;
+     background-color: var(--secondary-color);
  }
 
  .header {
-     color: #f3f3f4;
-     background-color: #1282a2;
+     color: var(--primary-color);
+     background-color: var(--teritary-color);
  }
 
  .header h1 {
+     display: inline-block;
      font-size: 30px;
-     color: #f3f3f4;
-     background-color: #1282a2;
+     color: var(--primary-color);
+     background-color: var(--teritary-color);
  }
 
  .me {
-     color:#6622cc;
-     background-color:#f3f3f4;
+     color:var(--purple);
+     background-color:var(--primary-color);
      font-size: 16px;
  }
 
 
  .me h2{
-    color: #de2b64;
-    background-color: #f3f3f4;
+    color: var(--accent-color);
+    background-color: var(--primary-color);
     font-size: 24px;
  }
 
  .work {
-     color: #181925;
-     background-color:#f3f3f4;
+     color: var(--text-color);
+     background-color:var(--primary-color);
      font-size:16px;
  }
 
  .work h2 {
-     color: #de2b64;
-     background-color:#f3f3f4;
+     color: var(--accent-color);
+     background-color:var(--primary-color);
      font-size: 24px;
  }
 
  .chat {
-     color: #6622cc;
-     background-color:#f3f3f4;
+     color: var(--purple);
+     background-color:var(--primary-color);
      font-size: 16px;
  }
 
  .chat h2{
-     color: #de2b64;
-     background-color:#f3f3f4;
+     color: var(--accent-color);
+     background-color:var(--primary-color);
      font-size: 24px;
  }
