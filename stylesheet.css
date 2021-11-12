@@ -10,7 +10,7 @@
  }
 
  body {
-     background-color: var(--secondary-color);
+     background-color: var(--tertiary-color);
  }
 
  .header {
@@ -21,7 +21,7 @@
 
  .header h1 {
      display: inline-block;
-     font-size: 30px;
+     font-size: 60px;
      color: var(--primary-color);
      background-color: var(--teritary-color);
  }
@@ -29,46 +29,57 @@
  .header div {
      font-size:24px;
      color: var(--primary-color);
-     float:right;
  }
 
  .header div ul {
      list-style-type: none;
  }
 
+ .header div ul li {
+     display: inline-block;
+ }
+
+a {
+    color: var(--primary-color);
+}
+
+p {
+    font-size:19px;
+    color: var(--purple);
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--accent-color);
+}
+
  .me {
-     color:var(--purple);
      background-color:var(--primary-color);
-     font-size: 16px;
  }
 
 
  .me h2{
-    color: var(--accent-color);
     background-color: var(--primary-color);
-    font-size: 24px;
+
  }
 
  .work {
-     color: var(--text-color);
      background-color:var(--primary-color);
-     font-size:16px;
  }
 
  .work h2 {
-     color: var(--accent-color);
      background-color:var(--primary-color);
-     font-size: 24px;
  }
 
  .chat {
-     color: var(--purple);
      background-color:var(--primary-color);
-     font-size: 16px;
  }
 
  .chat h2{
-     color: var(--accent-color);
      background-color:var(--primary-color);
-     font-size: 24px;
+ }
+
+ .chat li {
+     color: var(--purple);
+     font-size: 19px;
  }
