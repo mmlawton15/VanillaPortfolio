@@ -104,6 +104,10 @@ h3 {
      background-color:var(--primary-color);
  }
 
+ .chat a {
+     color:var(--text-color);
+ }
+
  .chat h2{
      background-color:var(--primary-color);
  }
