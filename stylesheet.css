@@ -70,6 +70,10 @@ h3 {
      background-color:var(--primary-color);
  }
 
+.me img {
+    width: 65%;
+    height: auto;
+}
 
 .works {
     width: 100%;
@@ -87,6 +91,8 @@ h3 {
 
  .work img {
      float:left;
+     width: 90%;
+     height: auto;
  }
 
 .work-description {
