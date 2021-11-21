@@ -1,12 +1,12 @@
 
 /* FAVORITE COLORS */
 :root {
-    --primary-color: #f3f3f4;
-    --secondary-color: #dabfff;
-    --tertiary-color: #1282a2;
-    --accent-color: #de2b64;
-    --text-color: #181925;
-    --purple: #6622cc; 
+    --primary-color: #fdfffc;
+    --secondary-color: #d7ddfe;
+    --tertiary-color: #8899fc;
+    --accent-color: #6c756b;
+    --text-color: #02223b;
+    --purple: #61e294; 
  }
 
  body {
@@ -63,7 +63,7 @@ h2 {
 
 h3 {
     font-size: 23px;
-    color: var(--purple);
+    color: var(--accent-color);
 }
 
  .me {
