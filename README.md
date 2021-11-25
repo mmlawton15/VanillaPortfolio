@@ -11,3 +11,6 @@ I built this using HTML and CSS. No javascript yet, but i have big ideas for lat
 
 ## Where can I find it?
 This website can be found here: https://mmlawton15.github.io/challenge-two-bubbles/
+
+## What does it look like?
+You can see a preview of my portfolio in the Issues section of my github repo: https://github.com/mmlawton15/challenge-two-bubbles/issues/1
