@@ -10,10 +10,11 @@
  }
 
 
- /*fundamental colors*/
+ /*BODY COLOR*/
  body {
      background-color: var(--tertiary-color);
  }
+
 
  /*HEADER CLASSES*/
  .header {
@@ -69,6 +70,7 @@ h3 {
     height: auto;
 }
 
+
 /*PROJECT STYLES*/
 .works {
     width: 100%;
@@ -103,6 +105,7 @@ h3 {
  .work h2 {
      background-color:var(--primary-color);
  }
+
 
  /*CONTACT ME STYLES*/
  .chat {
