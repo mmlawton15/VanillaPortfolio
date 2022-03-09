@@ -1,7 +1,4 @@
-
-
-
-/* FAVORITE COLORS */
+/* FAVORITE COLORS
 :root {
     --primary-color: #f3f3f4;
     --secondary-color: #dabfff;
@@ -9,4 +6,105 @@
     --accent-color: #de2b64;
     --text-color: #181925;
     --purple: #6622cc; 
+ } */
+
+ /*COLOR PALETTE*/
+:root {
+    --primary-color: #f9f8f8;
+    --secondary-color: #279af1;
+    --accent-color: #f75590;
+    --text-color: #30343f;
  }
+
+/*BODY STYLING*/
+body {
+    background-color: var(--primary-color);
+}
+
+/*INFO AND NAV STYLING*/
+.infoAndNavColumn {
+    background-color: var(--secondary-color);
+    width: 20%;
+    border: black solid 3px;
+    padding: 15px;
+}
+
+.mmPicAndIntro {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    border: none;
+    width:90%;
+    margin-top:15px;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: lavender;
+    color:blue;
+    border: blue solid;
+}
+
+
+/*PROJECT STYLES*/
+.works {
+   width: 100%;
+   margin: 0 auto;
+   background-color: var(--secondary-color);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-around
+}
+.work {
+    background-color:var(--primary-color);
+}
+.work img {
+    float:left;
+    width: 60%;
+    height: auto;
+}
+.work1 {
+   background-color:var(--primary-color);
+}
+.work1 img{
+    width: 85%;
+    float: left;
+    height: auto;
+}
+.work-description {
+   padding: 30px;
+   float: left;
+   width: 60%;
+   padding-top:40px;
+}
+.work h2 {
+    background-color:var(--primary-color);
+}
+
+
+/*CONTACT ME STYLES*/
+.chat {
+    background-color:var(--primary-color);
+}
+.chat a {
+    color:var(--text-color);
+}
+.chat h2{
+    background-color:var(--primary-color);
+}
+.chat li {
+    color: var(--text-color);
+    font-size: 19px;
+}
