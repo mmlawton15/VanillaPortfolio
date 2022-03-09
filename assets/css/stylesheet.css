@@ -30,17 +30,34 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 25%;
+    width: 23%;
     height: 100%;
     background :var(--secondary-color);
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/*INFO AND NAV STYLING*/
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    width:90%;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    color: var(--primary-color);
+}
 
-.mmPicAndIntro {
-    margin-left: auto;
-    margin-right: auto;
+nav a:hover {
+    color: var(--accent-color);
+}
+
+main {
+    margin-left: 24%;
+    padding: 10px;
 }
 
 img {
@@ -48,6 +65,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width:90%;
+    margin-bottom: 30px;
 }
 
 button {
@@ -58,11 +76,31 @@ button {
     margin-top:15px;
     margin-bottom: 15px;
     height: 30px;
-
     font-size: 18px;
 }
 button:hover {
     color: var(--accent-color);
+}
+
+
+/*ABOUT ME*/
+
+/*MY WORK*/
+.cropped {
+    width: 450px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.worksContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.work-description {
+    width: 30%;
 }
 
 
@@ -91,12 +129,7 @@ button:hover {
     float: left;
     height: auto;
 }
-.work-description {
-   padding: 30px;
-   float: left;
-   width: 60%;
-   padding-top:40px;
-}
+
 .work h2 {
     background-color:var(--primary-color);
 }
