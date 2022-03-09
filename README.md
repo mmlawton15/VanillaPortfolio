@@ -12,3 +12,21 @@ This website can be found here: https://mmlawton15.github.io/challenge-two-bubbl
 
 ## What does it look like?
 ![image](./assets/mmPortfolioScreenshot.jpg)
+
+
+                <div style="display: flex;"> 
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="margin: 20px"> 
+                            picture
+                        </div>
+                        <div style="margin: 20px"> 
+                            desc
+                        </div>
+                    </div>
+                    <div style="margin: 20px"> 
+                        kdjfkdj
+                    </div>
+                    <div style="margin: 20px"> 
+                        kdjfkdj
+                    </div>
+                </div>
