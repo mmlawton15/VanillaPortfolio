@@ -17,17 +17,26 @@
  }
 
 /*BODY STYLING*/
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--primary-color);
+    margin:0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background :var(--secondary-color);
+    padding: 15px;
 }
 
 /*INFO AND NAV STYLING*/
-.infoAndNavColumn {
-    background-color: var(--secondary-color);
-    width: 20%;
-    border: black solid 3px;
-    padding: 15px;
-}
 
 .mmPicAndIntro {
     margin-left: auto;
@@ -49,12 +58,11 @@ button {
     margin-top:15px;
     margin-bottom: 15px;
     height: 30px;
-    border-radius: 5px;
+
+    font-size: 18px;
 }
 button:hover {
-    background-color: lavender;
-    color:blue;
-    border: blue solid;
+    color: var(--accent-color);
 }
 
 
