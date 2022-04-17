@@ -104,8 +104,16 @@ button:hover {
     width: 30%;
 }
 
-.card-image {
-    height:5rem;
+.card {
+    width:23rem; 
+    margin:20px; 
+    align-items:flex-start;
+}
+
+.card-img-top {
+    max-height: 200px;
+    min-height: 150px;
+    object-fit: cover;
 }
 
 /*PROJECT STYLES*/
