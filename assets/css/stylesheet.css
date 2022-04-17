@@ -104,6 +104,10 @@ button:hover {
     width: 30%;
 }
 
+.card-image {
+    height:5rem;
+}
+
 /*PROJECT STYLES*/
 .works {
     margin: 0 auto;
