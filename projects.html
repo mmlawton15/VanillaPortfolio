@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>MM Resume</title>
+        <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+    </head>
+
+<!--BODY CODE-->
+<body>
+    <header>
+        <img src="assets/images/images/IMG_7003.png" class="headerLogo" href="index.html">
+        <nav>
+            <ul>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="my-work" class="work">
+        <h3>My Work</h3>
+        <p>
+            This section contains my projects, group projects, and any future personal projects I work on (I have a few ideas up my sleeve).
+            These apps are fully functioning, click the images to visit the page! If it's a backend project, you will be redirected to the GitHub Repo.
+        </p>
+        <div id="worksContainer" class="worksContainer">
+            <div id="groupProject3" class="card">
+                <img class="card-img-top" src="assets/images/images/calendariHomeGif.gif" alt="image of calendari application" onclick="location.href = 'https://calendari-day.herokuapp.com/';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Calendari</h3>
+                    <p class="card-text">
+                            Calendari is a MERN SPA PWA scheduler using GraphQL. Business Owners can log in, manage their appointments,
+                            and customize their appointment types. Clients can log in and schedule any of the predefined appointments with notes for the business.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript, React, GraphQL, Node, Express, Mongoose, MongoDB, Heroku, JWT Authentication</li>
+                    </ul>
+                </div>
+            </div> 
+            <div id="groupProject2" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/sheetshow.png" onclick="location.href = 'https://sheet-show.herokuapp.com/';"/>
+                <div class="card-body">
+                    <h3 class="card-title">The Sheet Show</h3>
+                    <p class="card-text">
+                        A full stack application that is based on creating character sheets for Dungeons and Dragons. We created a RESTful API to communicate between
+                        front end and back end, and styled it using primarily CSS and a DnD
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript, Node, Express, Handlebars, MySQL2, Sequelize ORM, Heroku, Bootstrap, Dotenv, Bcrypt, Connect-session-sequelize,
+                            Express session, JawsDB, DnD API
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="projectThree" class="card">
+                <img class="card-img-top" src="assets/images/compressedImages/PWGenerator.jpg" alt="image of Password Generator application" onclick="location.href = 'https://calendari-day.herokuapp.com/';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Password Generator</h3>
+                    <p class="card-text">
+                            An app that creates a randomly generated password based on the user's input and preferences.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript</li>
+                    </ul>
+                </div>
+            </div> 
+            <div id="projectFive" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/WorkdayScheduler.jpg" alt="image of the workday scheduler" onclick="location.href = 'https://mmlawton15.GitHub.io/challenge-five-disco/';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Work Scheduler</h3>
+                    <p class="card-text">
+                        The Work Day Scheduler functions similarly to a calendar app, it allows the user to schedule their daily tasks by the hour and reflects the current date
+                        and time. The previous time is greyed out, the current time will be red, and the upcoming time will be green. This uses local storage to allow for
+                        tasks to persist after the browser has been closed. Users can edit, delete and create tasks on this page
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript, Third-Party APIs, Bootstrap, jQuery, Moment</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="projectEleven" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/noteTaker.jpg" onclick="location.href = 'https://protected-savannah-15247.herokuapp.com/notes'"/>
+                <div class="card-body">
+                    <h3 class="card-title">Note Taker</h3>
+                    <p class="card-text">
+                        The Notetaker app was our challenge we used to show our skills with Express.js. It's an application that allows users to create, edit and delete
+                        notes and these notes persist using a JSON database. It was designed to replace a paper notebook!
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript, Node, Express, CRUD, Heroku</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="project19" class="card">
+                <img class="card-img-top"  src="assets/images/images/budgetTrackerPWA.png" onclick="location.href = 'https://evening-caverns-05596.herokuapp.com'"/>
+                <div class="card-body">
+                    <h3 class="card-title">Budget Tracker</h3>
+                    <p class="card-text">
+                        My first Progressive Web Applications. I handled the backend logic, more specifically the offline capabilities. If a user loses 
+                        internet access, the app will log their transactions using IndexedDB. Once they regain network access, Indexed DB will load 
+                        these transactions into the app.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript, Heroku, IndexedDB, Service Workers</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="projectSix" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/weatherDashboard.jpg" alt="image of the workday scheduler" onclick="location.href = 'https://mmlawton15.GitHub.io/weather-dashboard-snowflake/';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Weather Dashboard</h3>
+                    <p class="card-text">
+                        The Weather Dashboard was our introduction to Server-Side APIs. I built a weather app, where the user can search for a city and
+                        get the daily forecast, as well as the 5 day forecast. The users recent searches were then logged as buttons on the far right for quick access.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Web APIs, Javascript</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="project17" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/regex.png" onclick="location.href = 'https://gist.GitHub.com/mmlawton15/5ed54ce92566e27ba5f40c4494485386';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Regex</h3>
+                    <p class="card-text">
+                        I created a tutorial for Regular Expressions, which allow developersto compare user input to match a specific Regex formula comprised 
+                        of different letters, numbers and symbols.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Javascript, Regex, GitHub Gist</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="projectThirteen" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/ecommerce.png" onclick="location.href = 'https://GitHub.com/mmlawton15/challenge-thirteen-ecommerce';"/>
+                <div class="card-body">
+                    <h3 class="card-title">E-Commerce Backend</h3>
+                    <p class="card-text">
+                        I refactored a working Express.js API to work with a Sequelize database for an E-Commerce store. The front end was working, just not
+                        communicating with the database.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript, Express, Sequelize, MySQL</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="projectNine" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/READMEGenerator.jpg" onclick="location.href = 'https://GitHub.com/mmlawton15/readme-generator-butterscotch';"/>
+                <div class="card-body">
+                    <h3 class="card-title">README Generator</h3>
+                    <p class="card-text">
+                        A command-line application to generate a README file for projects. I recorded user input and invoked the application from the command 
+                        line, and ultimately generate the README file. 
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript, Node.js, Inquirer</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="project18" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/socialnetwork.png" onclick="location.href = 'https://GitHub.com/mmlawton15/challenge-eighteen-peacock';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Social Network API</h3>
+                    <p class="card-text">
+                        An API for a social network web application where users can share their thoughts, react to thoughts, add/delete friends, and 
+                        update/delete thoughts. 
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Mongoose, NoSQL, MongoDB, ODM</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="projectTwelve" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/employeeTracker.png" onclick="location.href = 'https://GitHub.com/mmlawton15/challenge-twelve-employees';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Employee Database</h3>
+                    <p class="card-text">
+                        The Employee Database is a CMS application for a user to quickly sort through data about their employees. In this app, you can view all
+                        departments, employees, salaries. You can also create, update or delete a department, a role or an employee.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Javascript, Node, SQL</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div id="projectTen" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/teamBuilder.png" onclick="location.href = 'https://mmlawton15.GitHub.io/challenge-ten-worker-bee/';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Team Profile Generator</h3>
+                    <p class="card-text">
+                        The team profile generator is an app I pictured someone in HR using to build out a team for a manager and quickly access everyone's information.
+                        This was our first exposure to Object Oriented Programming, and was a challenging one! In order for this application to be used, you will need
+                        to run Node.js from your terminal window, as this is a primarily backend app.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS</li>
+                    </ul>
+                </div>
+            </div> -->
+            <div id="projectFour" class="card">
+                    <img class="card-img-top" src="assets/images/compressedImages/codeQuiz.jpg" alt="image of the code quiz" onclick="location.href = 'https://mmlawton15.GitHub.io/challenge-four-snowflake/';"/>
+                    <div class="card-body">
+                        <h3 class="card-title">Code Quiz</h3>
+                        <p class="card-text">
+                            The coding quiz is an app that quizzes players on a pre-identified set of questions. It runs on a timer that decreases with every
+                            incorrect answer, and with every correct answer you will get points. At the end, you are able to add your initials ad log your high score.
+                        </p>
+                        <div class="card-header">Stack</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML, CSS, Javascript, DOM, Web APIs</li>
+                        </ul>
+                    </div>
+            </div>
+            <div id="groupProjectOne" class="card">
+                <img class="card-img-top"  src="assets/images/compressedImages/GasGuru.jpg" alt="image of the Gas Guru App" onclick="location.href = 'https://mmlawton15.GitHub.io/group-project-gas-guru/';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Gas Guru</h3>
+                    <p class="card-text">
+                        Our first group project building a front end project. An app that lets you type in a zipcode to find the lowest gas prices in your area.
+                        The zipcode also communicated with an API on the back end to let you know current driving conditions.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS, Web APIs, Javascript, Pure</li>
+                    </ul>
+                </div>
+            </div>  
+            <div id="projectOne" class="card">
+                <img class="card-img-top" src="assets/images/compressedImages/horiseon.jpg" alt="image of entire webpage of my horiseon project" onclick="location.href = 'https://mmlawton15.GitHub.io/challenge-one-horiseon/';"/>
+                <div class="card-body">
+                    <h3 class="card-title">Horiseon</h3>
+                    <p class="card-text">
+                            Refactored code base to make the website fully functional.
+                    </p>
+                    <div class="card-header">Stack</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS</li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+     </div>
+</body>
