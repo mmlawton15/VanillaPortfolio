@@ -22,8 +22,8 @@
 }
 
 header {
-    background-color: var(--secondary-color);
-    color: var(--text-color);
+    background-image: linear-gradient(rgba(120, 205, 215, 1), rgba(120, 205, 215, 0));
+    color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     position: sticky;
@@ -32,12 +32,12 @@ header {
 
 header a {
     text-decoration: none;
-    color: var(--text-color);
-    font-weight:700;
+    color: var(--accent-color);
+    font-weight:bolder;
 }
 
 header a:hover {
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 header nav {
@@ -69,7 +69,12 @@ header nav ul li a {
 }
 
 body {
-    background-color: var(--primary-color);
+    /* background-image: url("/assets/images/images/pebble-background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    background-color:var(--primary-color);
     margin:0;
     font-family: 'Lato', sans-serif;
 }
@@ -78,7 +83,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:80%;
+    width:70%;
     margin-bottom: 30px;
 }
 
@@ -111,6 +116,29 @@ p {
     padding:2rem 3rem;
 }
 
+/* .overlay {
+    top:0;
+    left:0;
+    bottom:0;
+    margin:0;
+    height:100%;
+    width:100%;
+    background-color: rgba(255, 255, 250, 0.65);
+} */
+
+
+
+/*FOOTER*/
+
+footer {
+    background-image: linear-gradient(rgba(120, 205, 215, 0), rgba(120, 205, 215, 1));
+    color: var(--primary-color);
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 /*ABOUT ME*/
 
@@ -118,8 +146,25 @@ p {
     padding: 0 2rem;
 }
 
+.me img {
+    float: left;
+    width: 50%;
+    padding:0;
+    margin-right:2rem;
+}
 
+.mm-facts-header {
+    margin: 0px;
+    padding-bottom: 50px;
+    width:90%;
+    display:inline-block;
+    align-items:center;
+    justify-content: space-between;
+}
 
+.mm-facts {
+    margin: 4rem auto;
+}
 
 
 /*MY WORK*/

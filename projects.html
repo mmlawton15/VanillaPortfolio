@@ -9,111 +9,116 @@
 
 <!--BODY CODE-->
 <body>
-    <header>
-        <a href="index.html"><img src="assets/images/images/IMG_7003.png" class="headerLogo"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">ABOUT</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a href="resume.html">RESUME</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="my-work" class="work">
-        <h3>My Work</h3>
-        <p>
-            This section contains my projects, group projects, and any future personal projects I work on (I have a few ideas up my sleeve).
-            These apps are fully functioning, click the images to visit the page! If it's a backend project, you will be redirected to the GitHub Repo.
-        </p>
-        <div id="worksContainer" class="worksContainer">
-            <div id="groupProject3" class="card">
-                <img class="card-img-top" src="assets/images/images/calendariHomeGif.gif" alt="image of calendari application" onclick="location.href = 'https://calendari-day.herokuapp.com/';"/>
-                <div class="card-body">
-                    <h3 class="card-title">Calendari</h3>
-                    <p class="card-text">
-                            Calendari is a MERN SPA PWA scheduler using GraphQL. Business Owners can log in, manage their appointments,
-                            and customize their appointment types. Clients can log in and schedule any of the predefined appointments with notes for the business.
-                    </p>
-                    <div class="card-header">Stack</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">HTML, CSS, Javascript, React, GraphQL, Node, Express, Mongoose, MongoDB, Heroku, JWT Authentication</li>
-                    </ul>
+    <div class="overlay">
+        <header>
+            <a href="index.html"><img src="assets/images/images/IMG_7003.png" class="headerLogo"></a>
+            <nav>
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="resume.html">RESUME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="my-work" class="work">
+            <h3>My Work</h3>
+            <p>
+                This section contains my projects, group projects, and any future personal projects I work on (I have a few ideas up my sleeve).
+                These apps are fully functioning, click the images to visit the page! If it's a backend project, you will be redirected to the GitHub Repo.
+            </p>
+            <div id="worksContainer" class="worksContainer">
+                <div id="groupProject3" class="card">
+                    <img class="card-img-top" src="assets/images/images/calendariHomeGif.gif" alt="image of calendari application" onclick="location.href = 'https://calendari-day.herokuapp.com/';"/>
+                    <div class="card-body">
+                        <h3 class="card-title">Calendari</h3>
+                        <p class="card-text">
+                                Calendari is a MERN SPA PWA scheduler using GraphQL. Business Owners can log in, manage their appointments,
+                                and customize their appointment types. Clients can log in and schedule any of the predefined appointments with notes for the business.
+                        </p>
+                        <div class="card-header">Stack</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML, CSS, Javascript, React, GraphQL, Node, Express, Mongoose, MongoDB, Heroku, JWT Authentication</li>
+                        </ul>
+                    </div>
+                </div> 
+                <div id="groupProject2" class="card">
+                    <img class="card-img-top"  src="assets/images/compressedImages/sheetshow.png" onclick="location.href = 'https://sheet-show.herokuapp.com/';"/>
+                    <div class="card-body">
+                        <h3 class="card-title">The Sheet Show</h3>
+                        <p class="card-text">
+                            A full stack application that is based on creating character sheets for Dungeons and Dragons. We created a RESTful API to communicate between
+                            front end and back end, and styled it using primarily CSS and a DnD
+                        </p>
+                        <div class="card-header">Stack</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML, CSS, Javascript, Node, Express, Handlebars, MySQL2, Sequelize ORM, Heroku, Bootstrap, Dotenv, Bcrypt, Connect-session-sequelize,
+                                Express session, JawsDB, DnD API
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div> 
-            <div id="groupProject2" class="card">
-                <img class="card-img-top"  src="assets/images/compressedImages/sheetshow.png" onclick="location.href = 'https://sheet-show.herokuapp.com/';"/>
-                <div class="card-body">
-                    <h3 class="card-title">The Sheet Show</h3>
-                    <p class="card-text">
-                        A full stack application that is based on creating character sheets for Dungeons and Dragons. We created a RESTful API to communicate between
-                        front end and back end, and styled it using primarily CSS and a DnD
-                    </p>
-                    <div class="card-header">Stack</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">HTML, CSS, Javascript, Node, Express, Handlebars, MySQL2, Sequelize ORM, Heroku, Bootstrap, Dotenv, Bcrypt, Connect-session-sequelize,
-                            Express session, JawsDB, DnD API
-                        </li>
-                    </ul>
+                <div id="projectFive" class="card">
+                    <img class="card-img-top"  src="assets/images/compressedImages/WorkdayScheduler.jpg" alt="image of the workday scheduler" onclick="location.href = 'https://mmlawton15.GitHub.io/challenge-five-disco/';"/>
+                    <div class="card-body">
+                        <h3 class="card-title">Work Scheduler</h3>
+                        <p class="card-text">
+                            The Work Day Scheduler functions similarly to a calendar app, it allows the user to schedule their daily tasks by the hour and reflects the current date
+                            and time. The previous time is greyed out, the current time will be red, and the upcoming time will be green. This uses local storage to allow for
+                            tasks to persist after the browser has been closed. Users can edit, delete and create tasks on this page
+                        </p>
+                        <div class="card-header">Stack</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML, CSS, Javascript, Third-Party APIs, Bootstrap, jQuery, Moment</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div id="projectFive" class="card">
-                <img class="card-img-top"  src="assets/images/compressedImages/WorkdayScheduler.jpg" alt="image of the workday scheduler" onclick="location.href = 'https://mmlawton15.GitHub.io/challenge-five-disco/';"/>
-                <div class="card-body">
-                    <h3 class="card-title">Work Scheduler</h3>
-                    <p class="card-text">
-                        The Work Day Scheduler functions similarly to a calendar app, it allows the user to schedule their daily tasks by the hour and reflects the current date
-                        and time. The previous time is greyed out, the current time will be red, and the upcoming time will be green. This uses local storage to allow for
-                        tasks to persist after the browser has been closed. Users can edit, delete and create tasks on this page
-                    </p>
-                    <div class="card-header">Stack</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">HTML, CSS, Javascript, Third-Party APIs, Bootstrap, jQuery, Moment</li>
-                    </ul>
+                <div id="projectEleven" class="card">
+                    <img class="card-img-top"  src="assets/images/compressedImages/noteTaker.jpg" onclick="location.href = 'https://protected-savannah-15247.herokuapp.com/notes'"/>
+                    <div class="card-body">
+                        <h3 class="card-title">Note Taker</h3>
+                        <p class="card-text">
+                            The Notetaker app was our challenge we used to show our skills with Express.js. It's an application that allows users to create, edit and delete
+                            notes and these notes persist using a JSON database. It was designed to replace a paper notebook!
+                        </p>
+                        <div class="card-header">Stack</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML, CSS, Javascript, Node, Express, CRUD, Heroku</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div id="projectEleven" class="card">
-                <img class="card-img-top"  src="assets/images/compressedImages/noteTaker.jpg" onclick="location.href = 'https://protected-savannah-15247.herokuapp.com/notes'"/>
-                <div class="card-body">
-                    <h3 class="card-title">Note Taker</h3>
-                    <p class="card-text">
-                        The Notetaker app was our challenge we used to show our skills with Express.js. It's an application that allows users to create, edit and delete
-                        notes and these notes persist using a JSON database. It was designed to replace a paper notebook!
-                    </p>
-                    <div class="card-header">Stack</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">HTML, CSS, Javascript, Node, Express, CRUD, Heroku</li>
-                    </ul>
+                <div id="project19" class="card">
+                    <img class="card-img-top"  src="assets/images/images/budgetTrackerPWA.png" onclick="location.href = 'https://evening-caverns-05596.herokuapp.com'"/>
+                    <div class="card-body">
+                        <h3 class="card-title">Budget Tracker</h3>
+                        <p class="card-text">
+                            My first Progressive Web Applications. I handled the backend logic, more specifically the offline capabilities. If a user loses 
+                            internet access, the app will log their transactions using IndexedDB. Once they regain network access, Indexed DB will load 
+                            these transactions into the app.
+                        </p>
+                        <div class="card-header">Stack</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML, CSS, Javascript, Heroku, IndexedDB, Service Workers</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div id="project19" class="card">
-                <img class="card-img-top"  src="assets/images/images/budgetTrackerPWA.png" onclick="location.href = 'https://evening-caverns-05596.herokuapp.com'"/>
-                <div class="card-body">
-                    <h3 class="card-title">Budget Tracker</h3>
-                    <p class="card-text">
-                        My first Progressive Web Applications. I handled the backend logic, more specifically the offline capabilities. If a user loses 
-                        internet access, the app will log their transactions using IndexedDB. Once they regain network access, Indexed DB will load 
-                        these transactions into the app.
-                    </p>
-                    <div class="card-header">Stack</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">HTML, CSS, Javascript, Heroku, IndexedDB, Service Workers</li>
-                    </ul>
+                <div id="projectSix" class="card">
+                    <img class="card-img-top"  src="assets/images/compressedImages/weatherDashboard.jpg" alt="image of the workday scheduler" onclick="location.href = 'https://mmlawton15.github.io/weather-dashboard/';"/>
+                    <div class="card-body">
+                        <h3 class="card-title">Weather Dashboard</h3>
+                        <p class="card-text">
+                            The Weather Dashboard was our introduction to Server-Side APIs. I built a weather app, where the user can search for a city and
+                            get the daily forecast, as well as the 5 day forecast. The users recent searches were then logged as buttons on the far right for quick access.
+                        </p>
+                        <div class="card-header">Stack</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML, CSS, Web APIs, Javascript</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div id="projectSix" class="card">
-                <img class="card-img-top"  src="assets/images/compressedImages/weatherDashboard.jpg" alt="image of the workday scheduler" onclick="location.href = 'https://mmlawton15.github.io/weather-dashboard/';"/>
-                <div class="card-body">
-                    <h3 class="card-title">Weather Dashboard</h3>
-                    <p class="card-text">
-                        The Weather Dashboard was our introduction to Server-Side APIs. I built a weather app, where the user can search for a city and
-                        get the daily forecast, as well as the 5 day forecast. The users recent searches were then logged as buttons on the far right for quick access.
-                    </p>
-                    <div class="card-header">Stack</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">HTML, CSS, Web APIs, Javascript</li>
-                    </ul>
-                </div>
-            </div>
-     </div>
+        </div>
+       
+    </div>
+    <footer></footer>
+    </div>
 </body>
