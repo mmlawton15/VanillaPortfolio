@@ -1,11 +1,17 @@
 
  /*COLOR PALETTE*/
 :root {
-    --primary-color: #f9f8f8;
+    /* --primary-color: #f9f8f8;
     --secondary-color: #85ccff;
     --blue-color: #279af1;
     --accent-color: #f75590;
-    --text-color: #30343f;
+    --text-color: #30343f; */
+    --primary-color: #fffffa;
+    --secondary-color: #78cdd7;
+    --blue-color: #44a1a0;
+    --accent-color: #247b7b;
+    --text-color: #0d5c63;
+
  }
 
 /*HEADER*/
@@ -31,7 +37,7 @@ header a {
 }
 
 header a:hover {
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 header nav {
@@ -68,17 +74,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
-main {
-    margin-left: 24%;
-    padding: 10px;
-}
-
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:90%;
+    width:80%;
     margin-bottom: 30px;
 }
 
@@ -96,8 +96,31 @@ button:hover {
     color: var(--accent-color);
 }
 
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+.card {
+    border-style:solid;
+    border-radius:15px;
+}
+
+.mainSection {
+    margin:2rem 3rem;
+    padding:2rem 3rem;
+}
+
 
 /*ABOUT ME*/
+
+.me {
+    padding: 0 2rem;
+}
+
+
+
+
 
 /*MY WORK*/
 .cropped {
