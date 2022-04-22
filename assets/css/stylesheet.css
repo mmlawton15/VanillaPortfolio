@@ -68,8 +68,6 @@ header nav ul li a {
     box-sizing: border-box;
 }
 
-
-
 body {
     position: relatiove;
     margin:0;
@@ -92,8 +90,6 @@ body::before {
     background-position: 50% 0;
     background-size:cover;
 }
-
-
 
 img {
     display: block;
@@ -123,8 +119,8 @@ p {
 }
 
 .mainSection {
-    margin:2rem 3rem;
-    padding:2rem 3rem;
+    margin:0 3rem;
+    padding:0 3rem;
 }
 
 /* .overlay {
