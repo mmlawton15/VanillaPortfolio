@@ -1,5 +1,5 @@
 
- /*COLOR PALETTE*/
+ /*COLOR PALETTE --------------------------------------------------------------------*/
 :root {
     /* --primary-color: #f9f8f8;
     --secondary-color: #85ccff;
@@ -14,7 +14,7 @@
 
  }
 
-/*HEADER*/
+/*HEADER -------------------------------------------------------------------------------*/
 .headerLogo {
     height:3rem;
     width: auto;
@@ -63,17 +63,17 @@ header nav ul li a {
 
 
 
-/*BODY STYLING*/
+/*BODY STYLING --------------------------------------------------------------------------*/
 * {
     box-sizing: border-box;
 }
 
 body {
-    /* background-image: url("/assets/images/images/pebble-background.jpg");
+    background-image: url("/assets/images/images/pebble-background.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; */
+    background-position: center;
     background-color:var(--primary-color);
     margin:0;
     font-family: 'Lato', sans-serif;
@@ -116,7 +116,7 @@ p {
     padding:2rem 3rem;
 }
 
-/* .overlay {
+.overlay {
     top:0;
     left:0;
     bottom:0;
@@ -124,11 +124,11 @@ p {
     height:100%;
     width:100%;
     background-color: rgba(255, 255, 250, 0.65);
-} */
+}
 
 
 
-/*FOOTER*/
+/*FOOTER ------------------------------------------------------------------------------*/
 
 footer {
     background-image: linear-gradient(rgba(120, 205, 215, 0), rgba(120, 205, 215, 1));
@@ -138,10 +138,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom:0px;
 }
 
-/*ABOUT ME*/
-
+/*ABOUT ME --------------------------------------------------------------------------------*/
 .me {
     padding: 0 2rem;
 }
@@ -166,8 +166,28 @@ footer {
     margin: 4rem auto;
 }
 
+/*RESUME ------------------------------------------------------------------------------*/
+.resume {
+    margin:6rem 14rem;
+}
 
-/*MY WORK*/
+.icons {
+    width:12rem;
+    filter: invert(59%) sepia(23%) saturate(855%) hue-rotate(130deg) brightness(89%) contrast(92%);
+    /* -webkit-filter:drop-shadow(3px 3px 3px #247b7b);
+    filter: drop-shadow(3px 3px 3px #247b7b); */
+}
+
+.icon-container {
+    width:60%;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+}
+
+/*MY WORK -----------------------------------------------------------------------------------------------*/
 .cropped {
     width: 450px;
     height: 200px;
@@ -197,7 +217,7 @@ footer {
     object-fit: cover;
 }
 
-/*PROJECT STYLES*/
+/*PROJECT STYLES ---------------------------------------------------------*/
 .works {
     margin: 0 auto;
     display: flex;
@@ -223,7 +243,7 @@ footer {
 }
 
 
-/*CONTACT ME STYLES*/
+/*CONTACT ME STYLES ---------------------------------------------------------*/
 .chat {
     background-color:var(--primary-color);
 }
