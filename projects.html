@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
-        <title>MM Resume</title>
+        <title>MM Projects</title>
         <link rel="stylesheet" href="./assets/css/stylesheet.css" />
     </head>
 
@@ -27,39 +27,31 @@
                 This section contains my projects, group projects, and any future personal projects I work on (I have a few ideas up my sleeve).
                 These apps are fully functioning, click the images to visit the page! If it's a backend project, you will be redirected to the GitHub Repo.
             </p>
-            <div id="worksContainer" class="worksContainer">
-                <div id="groupProject3" class="card">
-                    <div><img class="card-image" src="assets/images/images/calendariHomeGif.gif" alt="image of calendari application" onclick="location.href = 'https://calendari-day.herokuapp.com/';"/></div>
+            <div id="worksContainer" class="cards">
+                <div id="calendari" class="card">
+                    <img class="card-image" style="width:100%" src="assets/images/images/calendariHomeGif.gif" alt="image of calendari application" onclick="location.href = 'https://calendari-day.herokuapp.com/';"/>
                     <div class="card-body">
-                        <h3 class="card-title">Calendari</h3>
-                        <p class="card-text">
-                                Calendari is a MERN SPA PWA scheduler using GraphQL. Business Owners can log in, manage their appointments,
-                                and customize their appointment types. Clients can log in and schedule any of the predefined appointments with notes for the business.
-                        </p>
-                    </div>
-                    <div class="card-stack">
-                        <div class="card-header">Stack</div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">HTML, CSS, Javascript, React, GraphQL, Node, Express, Mongoose, MongoDB, Heroku, JWT Authentication</li>
-                        </ul>
-                    </div>
-                </div> 
-                <div id="groupProject2" class="card">
-                    <img class="card-img-top"  src="assets/images/compressedImages/sheetshow.png" onclick="location.href = 'https://sheet-show.herokuapp.com/';"/>
-                    <div class="card-body">
-                        <h3 class="card-title">The Sheet Show</h3>
-                        <p class="card-text">
-                            A full stack application that is based on creating character sheets for Dungeons and Dragons. We created a RESTful API to communicate between
-                            front end and back end, and styled it using primarily CSS and a DnD
-                        </p>
-                        <div class="card-header">Stack</div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">HTML, CSS, Javascript, Node, Express, Handlebars, MySQL2, Sequelize ORM, Heroku, Bootstrap, Dotenv, Bcrypt, Connect-session-sequelize,
-                                Express session, JawsDB, DnD API
-                            </li>
-                        </ul>
+                        <h3><b>Calendari</b></h3>
+                        <p>Calendari is a MERN SPA PWA scheduler using GraphQL. Business Owners can log in, manage their appointments,
+                            and customize their appointment types. Clients can log in and schedule any of the predefined appointments with notes for the business.</p>
+                        <h3><b>Stack</b></h3>
+                        <p>HTML, CSS, Javascript, React, GraphQL, Node, Express, Mongoose, MongoDB, Heroku, JWT Authentication</p>
                     </div>
                 </div>
+
+                <div id="groupProjectTwo" class="card">
+                    <img class="card-image" style="width:100%" src="assets/images/compressedImages/sheetshow.png" alt="image of sheet show application" onclick="location.href = 'https://sheet-show.herokuapp.com/';"/>
+                    <div class="card-body">
+                        <h3><b>The Sheet Show</b></h3>
+                        <p>A full stack application that is based on creating character sheets for Dungeons and Dragons. We created a RESTful API to communicate between
+                            front end and back end, and styled it using primarily CSS and a DnD</p>
+                        <h3><b>Stack</b></h3>
+                        <p>HTML, CSS, Javascript, Node, Express, Handlebars, MySQL2, Sequelize ORM, Heroku, Bootstrap, Dotenv, Bcrypt, Connect-session-sequelize,
+                            Express session, JawsDB, DnD API</p>
+                    </div>
+                </div>
+
+                
                 <div id="projectFive" class="card">
                     <img class="card-img-top"  src="assets/images/compressedImages/WorkdayScheduler.jpg" alt="image of the workday scheduler" onclick="location.href = 'https://mmlawton15.GitHub.io/challenge-five-disco/';"/>
                     <div class="card-body">

@@ -88,7 +88,7 @@ body::before {
     height:100%;
     opacity:0.3;
     z-index:-2;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-position: 50% 0;
     background-size:cover;
 }
@@ -120,11 +120,6 @@ button:hover {
 p {
     font-family: "Lato", sans-serif;
     font-size: 18px;
-}
-
-.card {
-    border-style:solid;
-    border-radius:15px;
 }
 
 .mainSection {
@@ -204,56 +199,60 @@ footer {
 }
 
 /*MY WORK -----------------------------------------------------------------------------------------------*/
-.cropped {
-    width: 450px;
-    height: 200px;
-    overflow: hidden;
-    margin: auto;
-    padding: auto;
-}
-
-.worksContainer {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.work-description {
-    width: 30%;
+.cards {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
 }
 
 .card {
-    display:flex;
-    justify-content:space-between;
     background-color: #fffffa;
+    border-radius:15px;
     border: none;
-    -webkit-filter:drop-shadow(3px 3px 3px #247b7b);
-    filter: drop-shadow(3px 3px 3px #247b7b);
-    padding:2rem;
+    -webkit-filter:drop-shadow(3px 3px 3px #44a1a0);
+    filter: drop-shadow(3px 3px 3px #44a1a0);
+    margin:2rem;
+    flex-basis:30rem;
+    height:auto;
+    width:auto;
+}
+
+.card:hover {
+    -webkit-filter:drop-shadow(3px 3px 3px #0d5c63);
+    filter: drop-shadow(3px 3px 3px #0d5c63);
 }
 
 .card-image {
     align-items: center;
-    height:7rem;
-    width: auto;
+    border-radius:15px 15px 0 0;
 }
 
 .card-body {
-    height:5rem;
-    width:auto;
-    margin:5px auto;
+    padding: 1rem 2rem;
 }
 
-.card-stack {
-    Height:3rem;
-    width:auto;
-    margin:5px auto;
-}
 
-/* .card-img-top {
-    max-height: 400px;
-    min-height: 350px;
-    object-fit: cover;
-} */
+@media screen and (min-width:40em) {
+    .cards {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:60em) {
+    .cards {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:52em) {
+    .cards {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+}
 
 /*PROJECT STYLES ---------------------------------------------------------*/
 .works {
