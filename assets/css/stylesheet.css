@@ -69,7 +69,7 @@ header nav ul li a {
 }
 
 body {
-    position: relatiove;
+    position: relative;
     margin:0;
     font-family: 'Lato', sans-serif;
     background-color:var(--primary-color);
@@ -195,10 +195,15 @@ footer {
 }
 
 /*MY WORK -----------------------------------------------------------------------------------------------*/
+.my-work-heading {
+    margin:3rem 4rem 2rem 4rem;
+}
+
 .cards {
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
+    margin: 0 3rem;
 }
 
 .card {
@@ -207,7 +212,7 @@ footer {
     border: none;
     -webkit-filter:drop-shadow(3px 3px 3px #44a1a0);
     filter: drop-shadow(3px 3px 3px #44a1a0);
-    margin:2rem;
+    margin:1rem;
     flex-basis:30rem;
     height:auto;
     width:auto;
@@ -226,7 +231,6 @@ footer {
 .card-body {
     padding: 1rem 2rem;
 }
-
 
 @media screen and (min-width:40em) {
     .cards {
@@ -249,32 +253,6 @@ footer {
         justify-content: space-between;
     }
 }
-
-/*PROJECT STYLES ---------------------------------------------------------*/
-.works {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.work img {
-    float:left;
-    width: 60%;
-    height: auto;
-}
-.work1 {
-   background-color:var(--primary-color);
-}
-.work1 img{
-    width: 85%;
-    float: left;
-    height: auto;
-}
-
-.work h2 {
-    background-color:var(--primary-color);
-}
-
 
 /*CONTACT ME STYLES ---------------------------------------------------------*/
 .chat {
