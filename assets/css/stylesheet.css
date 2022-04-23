@@ -135,7 +135,7 @@ p {
 
 
 
-/*FOOTER ------------------------------------------------------------------------------*/
+/*FOOTER ------------------------------------------------------------------------------------------------------------------------*/
 
 footer {
     background-image: linear-gradient(rgba(120, 205, 215, 0), rgba(120, 205, 215, 1));
@@ -148,7 +148,7 @@ footer {
     margin-bottom:0px;
 }
 
-/*ABOUT ME --------------------------------------------------------------------------------*/
+/*ABOUT ME --------------------------------------------------------------------------------------------------------------------------*/
 .me {
     padding: 0 2rem;
 }
@@ -173,7 +173,7 @@ footer {
     margin: 4rem auto;
 }
 
-/*RESUME ------------------------------------------------------------------------------*/
+/*RESUME ------------------------------------------------------------------------------------------------------------------------*/
 .resume {
     margin:6rem 14rem;
 }
@@ -194,7 +194,7 @@ footer {
     justify-content: space-between;
 }
 
-/*MY WORK -----------------------------------------------------------------------------------------------*/
+/*MY WORK -----------------------------------------------------------------------------------------------------------------------------------------*/
 .my-work-heading {
     margin:3rem 4rem 2rem 4rem;
 }
@@ -254,17 +254,40 @@ footer {
     }
 }
 
-/*CONTACT ME STYLES ---------------------------------------------------------*/
-.chat {
-    background-color:var(--primary-color);
+/*CONTACT ME STYLES ---------------------------------------------------------------------------------------------------*/
+.lets-chat {
+    margin:6rem 14rem;
 }
-.chat a {
-    color:var(--text-color);
+
+.lets-chat p {
+    text-decoration: none;
 }
-.chat h2{
-    background-color:var(--primary-color);
+
+.lets-chat a {
+    text-decoration: none;
+    color: black;
 }
-.chat li {
-    color: var(--text-color);
-    font-size: 19px;
+
+.lets-chat a:hover{
+    color:#247b7b;
+}
+
+.contact-form-container {
+    margin: auto;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 100%;
+}
+
+.contact-form-body {
+
 }
