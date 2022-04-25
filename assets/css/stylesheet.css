@@ -69,7 +69,7 @@ body {
 }
 
 body::before {
-    background-image: url("/assets/images/images/pebble-background.jpg");
+    background-image: url("../images/images/pebble-background.jpg");
     content:'';
     display: block;
     position:absolute;
