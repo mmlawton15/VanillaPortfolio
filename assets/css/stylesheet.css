@@ -256,7 +256,7 @@ footer {
 
 /*CONTACT ME STYLES ---------------------------------------------------------------------------------------------------*/
 .lets-chat {
-    margin:6rem 14rem;
+    margin:5rem 19rem 1rem 19rem;
 }
 
 .lets-chat p {
@@ -272,7 +272,7 @@ footer {
     color:#247b7b;
 }
 
-.contact-form-container {
+/* .contact-form-container {
     margin: auto;
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -280,14 +280,40 @@ footer {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: none;
     padding: 30px;
     padding-bottom: 10px;
-    border: 1px solid #ced4da;
     border-radius: 0.25rem;
     max-width: 100%;
+} */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0px auto 16px auto;
+  resize: vertical;
 }
 
-.contact-form-body {
+input[type=submit] {
+    background-color: #247b7b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+input[type=submit]:hover {
+    background-color: #44a1a0;
+}
+  
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0rem auto 2rem auto;
+    padding:0rem auto 2rem auto;
+    width:60%;
 }
