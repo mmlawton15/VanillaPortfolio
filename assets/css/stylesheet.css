@@ -168,6 +168,11 @@ footer {
     margin:6rem 14rem;
 }
 
+.resume p a{
+    text-decoration: none;
+    color: var(--blue-color)
+}
+
 .icons {
     width:12rem;
     filter: invert(59%) sepia(23%) saturate(855%) hue-rotate(130deg) brightness(89%) contrast(92%);
