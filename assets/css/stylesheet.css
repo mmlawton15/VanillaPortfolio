@@ -194,6 +194,11 @@ footer {
     margin:3rem 4rem 2rem 4rem;
 }
 
+.my-work-heading p a {
+    text-decoration: none;
+    color: var(--blue-color)
+}
+
 .cards {
     display:flex;
     justify-content:space-between;
